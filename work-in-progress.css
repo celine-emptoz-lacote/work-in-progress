@@ -1,0 +1,138 @@
+html {
+    background-image: url(images/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    z-index: 200;
+    height: 100vh;
+    opacity: 1;
+    background:linear-gradient(0.35turn,#214a80c5 50%, rgba(0, 0, 255, 0) 50%);
+}
+
+header {
+    margin: 10px;
+}
+
+header img {
+    width: 10%;
+}
+
+h1 {
+    text-align: left;
+    color: #ffd475;
+    font-size: 50px;
+    margin-bottom: 70px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+}
+
+main {
+    margin: 10px;
+}
+
+main p {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 70px;  
+}
+
+.DivMain {
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 100px auto 10px;
+}
+
+progress {
+    display: block; 
+}
+
+progress[value] {
+    -webkit-appearance: none;
+   appearance: none;
+    width: 250px;
+    height: 20px;  
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+progress[value]::-webkit-progress-value {
+    background-image:
+         -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, .1) 33%, rgba(0,0, 0, .1) 66%, transparent 66%),
+         -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, .25)),
+         -webkit-linear-gradient(left, #09c, #ffd475);
+  
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;   
+}
+
+footer {
+    background-color: #ffd475;
+    border-radius: 6px;
+    width: 60%;
+    float: right;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer p {
+    color: #214a80;
+    font-weight: bold;
+    
+}
+
+.footer label {
+    color: #214a80;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+input {
+    display: block;
+    margin: 5px auto 5px;
+    border: 1px #214a80c5 solid;
+    color: #214a80c5;
+    height: 20px;
+    width: 100%;
+}
+
+input::placeholder{
+    color: #214a80c5;
+}
+
+button {
+    background-color: #214a80;
+    border: none;
+    padding: 5px;
+    width: 65%;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover{
+    background-color: #84b4fe ; 
+}
+
+
+
+
+
+
+
+ 
