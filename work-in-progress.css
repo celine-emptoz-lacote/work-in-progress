@@ -81,6 +81,8 @@ footer {
     border-radius: 6px;
     width: 60%;
     float: right;
+    right: 0;
+    bottom: 0;
     text-align: center;
 }
 
